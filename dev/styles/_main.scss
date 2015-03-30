@@ -1,0 +1,65 @@
+// Foundation
+// ----------------------------------------------------------------------------
+html {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: $hex_L8;
+}
+body {
+	background-color: $hex_cream;
+}
+
+// Table
+// ----------------------------------------------------------------------------
+td.container-cell {
+	padding: 10px;
+}
+#tpl_wallet {
+	table-layout: fixed;
+	border: 1px solid $hex_orange;
+}
+#tpl_wallet tr {
+	border-bottom: 1px solid $hex_orange;
+}
+td.logo {
+	padding: 16px 20px 16px 0px;
+}
+td.heading-left,
+td.content-left {
+	padding: 14px 16px 14px 0px;
+}
+td.logo,
+td.heading-left,
+td.content-left {
+	width: 240px;
+}
+td.heading,
+td.content {
+	padding: 12px;
+}
+td.logo,
+td.heading,
+td.heading-left,
+td.content-left {
+	border-right: 1px solid $hex_orange;
+}
+
+// Headings
+// ----------------------------------------------------------------------------
+h1,
+h2 {
+	line-height: 1.3;
+}
+h1 {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: $hex_orange;
+}
+h2 {
+	font-size: 12px;
+}
+h2.uppercase {
+	text-transform: uppercase;
+}
+h2.margin-bottom {
+	margin-bottom: 12px;
+}
